@@ -2,12 +2,12 @@
   <div class="grid gap-4 md:grid-cols-3">
     <!-- Box 1 -->
     <div class="p-10 text-center bg-blue-200 rounded shadow-md">
-      <h3 class="mb-4 text-3xl font-bold text-blue-900">Confirmed</h3>
-      <div class="mb-4 text-2xl">
+      <h3 class="mb-4 text-xl font-bold text-blue-900 md:text-3xl">Confirmed</h3>
+      <div class="mb-4 md:text-2xl">
         <span class="font-bold">New:</span>
         {{ numberWithCommas(stats.NewConfirmed) }}
       </div>
-      <div class="mb-4 text-2xl">
+      <div class="mb-4 md:text-2xl">
         <span class="font-bold">Total:</span>
         {{ numberWithCommas(stats.TotalConfirmed) }}
       </div>
@@ -15,12 +15,12 @@
 
     <!-- Box 2 -->
     <div class="p-10 text-center bg-green-200 rounded shadow-md">
-      <h3 class="mb-4 text-3xl font-bold text-green-900">Recovered</h3>
-      <div class="mb-4 text-2xl">
+      <h3 class="mb-4 text-xl font-bold text-green-900 md:text-3xl">Recovered</h3>
+      <div class="mb-4 md:text-2xl">
         <span class="font-bold">New:</span>
         {{ numberWithCommas(stats.NewRecovered) }}
       </div>
-      <div class="mb-4 text-2xl">
+      <div class="mb-4 md:text-2xl">
         <span class="font-bold">Total:</span>
         {{ numberWithCommas(stats.TotalRecovered) }}
       </div>
@@ -28,12 +28,12 @@
 
     <!-- Box 3 -->
     <div class="p-10 text-center bg-red-200 rounded shadow-md">
-      <h3 class="mb-4 text-3xl font-bold text-red-900">Deaths</h3>
-      <div class="mb-4 text-2xl">
+      <h3 class="mb-4 text-xl font-bold text-red-900 md:text-3xl">Deaths</h3>
+      <div class="mb-4 md:text-2xl">
         <span class="font-bold">New:</span>
         {{ numberWithCommas(stats.NewDeaths) }}
       </div>
-      <div class="mb-4 text-2xl">
+      <div class="mb-4 md:text-2xl">
         <span class="font-bold">Total:</span>
         {{ numberWithCommas(stats.TotalDeaths) }}
       </div>
